@@ -1,0 +1,393 @@
+<!doctype html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108795072-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108795072-1');
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Raio-X do Orçamento do Rio</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/static/css/style.css" rel="stylesheet" type="text/css">
+<link href="/static/css/linecons.css" rel="stylesheet" type="text/css">
+<link href="/static/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="/static/css/responsive.css" rel="stylesheet" type="text/css">
+<link href="/static/css/animate.css" rel="stylesheet" type="text/css">
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="/static/js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap.js"></script>
+<script type="text/javascript" src="/static/js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="/static/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/static/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="/static/js/wow.js"></script>
+<script type="text/javascript" src="/static/js/classie.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.res-nav_click').click(function(){
+		$('ul.toggle').slideToggle(600)
+			});
+
+	$(document).ready(function() {
+$(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 0) {
+             $('#header_outer').addClass('fixed');
+         }
+         else {
+             $('#header_outer').removeClass('fixed');
+         }
+    });
+
+	  });
+
+
+		    });
+function resizeText() {
+	var preferredWidth = 767;
+	var displayWidth = window.innerWidth;
+	var percentage = displayWidth / preferredWidth;
+	var fontsizetitle = 25;
+	var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+	$(".divclass").css("font-size", newFontSizeTitle)
+}
+</script>
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_outer">
+  <div class="container">
+    <div class="header_section">
+      <div class="logo"><a href="/"><img src="/static/img/logo_raiox.png" alt=""></a></div>
+      <nav class="nav" id="nav">
+        <ul class="toggle">
+          <li><a href="#top_content">Sobre</a></li>
+          <!-- <li><a href="#service">Services</a></li> -->
+          <li><a href="#Portfolio">Orçamento</a></li>
+					<li><a href="#work_outer">Receba Atualizações</a></li>
+          <!-- <li><a href="#client_outer">Clients</a></li>
+          <li><a href="#team">Team</a></li> -->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <ul class="">
+          <li><a href="#top_content">Sobre</a></li>
+		  <li><a href="#work_outer">Receba Atualizações</a></li>
+		  <li><a href="#contact">Contato</a></li>
+		  <li><a href="/online/">Raio-X Web</a></li>
+		  <li><a href="/dados/" class="btn-raiox-online">Dados Abertos</a></li>
+        </ul>
+      </nav>
+      <a class="res-nav_click animated wobble wow"  href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+  </div>
+</header>
+<!--Header_section-->
+
+<!--Top_content-->
+
+<section id="top_content" class="top_cont_outer">
+		<div class="top_cont_inner">
+		  <div class="container">
+			<div class="top_content">
+			  <div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-7">
+				  <div class="top_left_cont flipInY wow animated">
+					<h3>TEMOS UMA NOVIDADE PARA VOCÊ!</h3>
+					<h2>ACOMPANHE O ORÇAMENTO DO MUNICÍPIO DO RIO COM O RAIO-X WEB</h2>
+					<p> Agora, você pode acompanhar os empenhos, liquidações e pagamentos realizados pela Prefeitura do Rio, até o mês corrente, com o RAIO-X WEB.
+						<br> Mas, fique tranquilo! Você ainda poderá baixar a versão dos dados tratados e estruturados, basta acessar a seção de <a href="/dados/">Dados Abertos</a> desse portal. 
+						Continue acompanhando como estão sendo gastos os seus recursos, pagador de impostos carioca!</p>
+					
+					  <div class="row">
+						  <div class="col-lg-4 col-md-4 col-sm-12">
+									  <a href="/online/" class="btn-raiox-online">Ir para Raio-X Web</a>
+						  </div>
+					  <div></div>
+						  <div class="col-lg-4 col-md-4 col-sm-12">
+							  <a href="https://firebasestorage.googleapis.com/v0/b/raiox-do-orcamento.appspot.com/o/documents%2FGuia%20Raio%20X%20Orcamento.pdf?alt=media&token=3eada2ff-bb9a-40f1-a04c-6fada04764c5" target="_blank" class="learn_more2"> Baixar Guia do Usuário</a>
+						  </div>
+					  </div>
+							  <!-- <a href="#service" class="learn_more2">Manual da Ferramenta</a> -->
+						  </div></div>
+	  
+						  
+						  <div class="col-lg-5 col-md-5 col-sm-5">
+							  <br/><br/><br/><br/><br/><br/>
+						  <div class="container-video" >
+	  
+						  <iframe class="video"  src="https://www.youtube.com/embed/-pmOoa2wEZY"></iframe>
+						  </div>
+						  </div>
+	  
+				
+	  
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+<!--Top_content-->
+
+<!--main-section-end-->
+
+<!--new_portfolio-->
+
+	<section id="work_outer"><!--main-section-start-->
+    <div class="top_cont_latest">
+      <div class="container">
+        <h2>Inscreva-se para Receber Atualizações</h2>
+        <div class="work_section">
+          <div class="row">
+              <div class="row">
+                  <div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+    
+                        <form action="https://leandrolyra.us13.list-manage.com/subscribe/post?u=5ce7ba8c0b351f64bf5a0eacc&amp;id=7655741b9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                          <div class="form">
+                            <p>Bimestralmente, atualizaremos as informações da execução orçamentária.
+                            Você pode tomar ciência dessas atualizações e de novas versões do portal
+                            Raio-X do Orçamento, se inscrevendo no formulário abaixo.</p>
+                            <br>
+                            <br>
+                              <input class="input-text " type="text" name="FNAME" id="mce-FNAME" value="Seu Nome *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+                              <input class="input-text " type="text" name="EMAIL" id="mce-EMAIL" value="Seu E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+                              <input class="input-btn " type="submit" name="subscribe" id="mc-embedded-subscribe" value="inscrever" >
+                          </div>
+                        </form>
+                      </div>
+                      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                      <script>
+                      $(document).ready(function(){
+                         $( "#mc-embedded-subscribe-form" ).submit(function( event ) {
+                             alert("Obrigado! Você receberá um e-mail para confirmar sua inscrição");
+                        });
+                     });
+                      </script>
+                      <figure class="col-lg-6 col-md-6 col-sm-12  text-right wow fadeInUp delay-02s"> </figure>
+                  </div>
+              </div>
+          </div>
+      <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+      </div>
+      </div>
+    </div>
+    </section>
+
+
+
+<footer class="footer_section" id="contact">
+  <div class="container">
+    <section class="main-section contact" id="contact">
+      <div class="contact_section">
+        <!-- <h2>SOBRE O AUTOR</h2> -->
+      </div>
+      <div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-12 wow fadeInLeft">
+				<div class="contact-info-box address clearfix">
+						<h5>SOBRE O AUTOR</h5>
+                        <h3>MANDATO DO VER. LEANDRO LYRA </h3>
+						<!-- (<a href="https://novo.org.br" target="_blank">NOVO</a>) -->
+                        <p>Leandro Lyra é o primeiro vereador eleito pelo NOVO no Rio de Janeiro. Uma de suas prioridades de atuação têm sido a fiscalização e controle dos recursos municipais, sempre prezando pela eficiência da gestão pública e o emprego responsável do dinheiro do pagador de impostos carioca. Para saber mais, acesse os meios de comunicação abaixo.</p>
+						<ul class="social-link">
+							<li class="dribbble animated bounceIn wow delay-02s"><a href="https://www.instagram.com/leandrolyrarj" target="_blank"><i class="fa-instagram"></i></a></li>
+							<li class="facebook animated bounceIn wow delay-03s"><a href="https://www.facebook.com/leandrolyrarj" target="_blank"><i class="fa-facebook"></i></a></li>
+							<li class="pinterest animated bounceIn wow delay-06s"><a href="http://www.leandrolyra.com.br/contato" target="_blank"><i class="fa-envelope"></i></a></li>
+							<li class="twitter animated bounceIn wow delay-06s"><a href="https://twitter.com/leandrolyrarj" target="_blank"><i class="fa-twitter"></i></a></li>
+						</ul>
+						<!-- <h3>MAIS SOBRE O PORTAL</h3>
+							<p>Todos os dados disponibilizados são obtidos do site <a href="http://riotransparente.rio" target="_blank">RIO TRANSPARENTE</a> e do sistema FINCON da Controladoria Geral do Município (CGM).
+							A lista completa dos Desdobramentos dos Elementos de Despesa pode ser encontrada nos Anexos VI e VII do <a href="http://www.rio.rj.gov.br/dlstatic/10112/2962428/4185302/ClassificadorOrcamentariodasReceitaseDespesas2017.pdf" target="_blank">Manual de Classificação Orçamentária das Receitas e Despesas de 2017</a> disponibilizado pela CGM.</p>
+                 -->
+				</div>
+			</div>
+			<div class="col-lg-1 col-md-3 wow fadeInLeft"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft">
+					<div class="team-leader-box"></div>
+						<div class="team-leader wow fadeInDown delay-09s">
+							<div class="container-video">
+
+							<img class="profile-img" src="/static/img/team-leader-pic3.jpg" alt="">
+						</div>
+						</div>
+						<!-- <h3 class="wow fadeInDown delay-09s">Skyler white</h3> -->
+						<!-- <span class="wow fadeInDown delay-09s">Accountant</span>
+						<p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p> -->
+				</div>
+					<!-- <div class="contact-info-box address clearfix">
+							<h3>MAIS SOBRE O PORTAL</h3>
+							<p>Todos os dados disponibilizados são obtidos do site <a href="http://riotransparente.rio" target="_blank">RIO TRANSPARENTE</a> e do sistema FINCON da Controladoria Geral do Município (CGM).
+							A lista completa dos Desdobramentos dos Elementos de Despesa pode ser encontrada nos Anexos VI e VII do <a href="http://www.rio.rj.gov.br/dlstatic/10112/2962428/4185302/ClassificadorOrcamentariodasReceitaseDespesas2017.pdf" target="_blank">Manual de Classificação Orçamentária das Receitas e Despesas de 2017</a> disponibilizado pela CGM.</p>
+                    </div> -->
+			</div>
+			<div class="col-md-offset-2 col-lg-8 col-md-8 col-sm-12 wow fadeInLeft">
+					<div class="contact-info-box address clearfix">
+							<h3>MAIS SOBRE O PORTAL</h3>
+							<p>Todos os dados disponibilizados são obtidos do site <a href="http://riotransparente.rio" target="_blank">RIO TRANSPARENTE</a> e do sistema FINCON da Controladoria Geral do Município (CGM).
+							A lista completa dos Desdobramentos dos Elementos de Despesa pode ser encontrada nos Anexos VI e VII do <a href="http://www.rio.rj.gov.br/dlstatic/10112/2962428/4185302/ClassificadorOrcamentariodasReceitaseDespesas2017.pdf" target="_blank">Manual de Classificação Orçamentária das Receitas e Despesas de 2017</a> disponibilizado pela CGM.</p>
+					</div>
+				</div>
+	  </div>
+	  
+	  </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"> <span>Copyright © 2017 <a href="https://leandrolyra.com.br" target="_blank">Gabinete do Vereador Leandro Lyra</a> | Adaptado do template Butterfly Theme By <a href="http://w3goods.com" target="_blank">W3Goods</a>. </span> </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#header_outer').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false
+
+        });
+
+    });
+</script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+	  section.className = 'wow shake';
+	  section.className = 'wow zoomIn';
+	  section.className = 'wow lightSpeedIn';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+<script type="text/javascript">
+	$(window).load(function(){
+
+		$('a').bind('click',function(event){
+			var $anchor = $(this);
+
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 91
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script>
+
+<script type="text/javascript">
+
+
+  jQuery(document).ready(function($){
+// Portfolio Isotope
+	var container = $('#portfolio-wrap');
+
+
+	container.isotope({
+		animationEngine : 'best-available',
+	  	animationOptions: {
+	     	duration: 200,
+	     	queue: false
+	   	},
+		layoutMode: 'fitRows'
+	});
+
+	$('#filters a').click(function(){
+		$('#filters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	container.isotope({ filter: selector });
+        setProjects();
+	  	return false;
+	});
+
+    $('#yearfilters a').click(function(){
+		$('#yearfilters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	// container.isotope({ filter: selector });
+        setProjects();
+	  	return false;
+	});
+
+
+		function splitColumns() {
+			var winWidth = $(window).width(),
+				columnNumb = 1;
+
+
+			if (winWidth > 1024) {
+				columnNumb = 4;
+			} else if (winWidth > 900) {
+				columnNumb = 2;
+			} else if (winWidth > 479) {
+				columnNumb = 2;
+			} else if (winWidth < 479) {
+				columnNumb = 1;
+			}
+
+			return columnNumb;
+		}
+
+		function setColumns() {
+			var winWidth = $(window).width(),
+				columnNumb = splitColumns(),
+				postWidth = Math.floor(winWidth / columnNumb);
+
+			container.find('.portfolio-item').each(function () {
+				$(this).css( {
+					width : postWidth + 'px'
+				});
+			});
+		}
+
+		function setProjects() {
+			setColumns();
+			container.isotope('reLayout');
+		}
+
+		container.imagesLoaded(function () {
+			setColumns();
+		});
+
+
+		$(window).bind('resize', function () {
+			setProjects();
+		});
+
+});
+$( window ).load(function() {
+	jQuery('#all').click();
+	return false;
+});
+</script>
+</body>
+</html>
